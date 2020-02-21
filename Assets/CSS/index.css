@@ -1,0 +1,455 @@
+/*change font size for body*/
+/*Styling of the navigation bar*/
+#language_selector{
+    display: inline-block;
+    margin-left: 7.8%;
+    width: 5%;
+    float: left;
+    color: white;
+}
+#header_navigation{
+    background-color: rgb(76, 87, 76);
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    top:0px;
+}
+#header_ul{
+    list-style-type: none;
+    padding-right: 5%;
+}
+.header_li{
+    display: inline-block;
+    margin-left: 3%;
+}
+.nav_head{
+    text-decoration-line: none;
+    color:gold  ;  
+}
+.nav_head:hover{
+    color: red;
+}
+
+/*header styling with menu to be added on the right side with js*/
+.main_header{
+    margin-top: 4%;
+}
+
+#menu_bar{
+    width: 60%;
+}
+
+#logo_iai{
+    width: 25%;
+    margin-left: 6%;
+}
+
+/*------------------------------------------------------------------------------*/
+/*slider applied to div under header*/
+#under_header{
+    display: inline;
+}
+#slider_div{
+    background-color: green;
+    float: left;
+    width: 70%;
+    height: 700px;
+}
+#side_header_image_container{
+    background-color: silver;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 700px;
+}
+#did_u_know_header{
+    text-align: center;
+    width: 100%;
+    margin-top: 0%;
+    font-size: 150%;
+    color: green;
+}
+.side_header_image_container{
+    margin: auto;
+    width: 90%; 
+    margin-bottom: 2%;
+    padding: auto;
+}
+.text{
+    display: inline-block;
+    background-color: white;
+    width: 43%;
+    height: 80px;
+    padding:5%;
+    margin-top: 0px;
+    text-align: justify;
+
+}
+.image_at_aside{
+    float: right;
+    width: 47%;
+    height: 80px;
+    margin: 0px;
+}
+.image_to_text{ 
+    width: 100%;
+    height: 115px;
+}
+
+#more_of_info{
+    display: inline-block;
+    margin: 5%;
+    width: 90%;
+}
+.breaking_news_header{
+    display: inline;
+    text-align: center;
+    width: 97%;
+    font-size: 90%;
+    color: black;
+}
+
+.breaking_news_header:hover{
+    color: green;
+}
+#more{
+    padding-left: 3%;
+    display: inline;
+    width: 3%;
+    color: green;
+}
+
+/*------------------------------------------------*/
+/*under slider div*/
+/*left portion*/
+#left_div_in_section{
+    float: left;
+    width: 37%;
+    padding-top: 1%;
+}
+
+#Events{
+    font-size: 200%;
+}
+em{
+    color:red;
+}
+
+#life_on_campus_images{
+    display: inline-block;
+}
+/*for the paragrephe*/
+.l_o_c_img{
+    width: 50%;
+    display: inline;
+}
+/*for the image it self*/
+.l_o_c_images{
+    width: 49%;
+    height: 150px;
+}
+
+/*news side*/
+/*right portion*/
+
+#right_div_in_section{
+    float: right;
+    width: 60%;
+}
+
+#first_div_in_section{
+    display: inline-block;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#esse_img{
+    display: inline;
+    width: 45%;
+}
+#esse{
+    width: 45%;
+    height: 300px;
+}
+
+#right_sided_text{
+    float: right;
+    margin:0px;
+    margin-top: 0px;
+    width: 52%;
+    height: 300px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#header_text{
+    font-size: 200%;
+    margin-top: 0px;
+}
+#News{
+    font-size: 200%;
+}
+/*sizing each division of the news box */
+#News_div{
+    display: inline-block;
+}
+
+/*sizing each box containing the images*/
+/*for the 2 first images*/
+.news_image_div_first{
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+    height: 420px;
+    border-bottom: 1px solid green;
+    margin-bottom: 1%;
+}
+/*for the last two images*/
+.news_image_div{
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+    height: 420px;
+    border-bottom: 1px solid green;
+    margin-bottom: 1%;
+}
+
+/*sizing all images*/
+.para_img{
+    margin-top: 0px;
+    width: 100%;
+    height: 300px;
+}
+.news_images{
+    width: 100%;
+    height: 300px;
+}
+.news_description{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------------------------*/
+/*discover what we do at iai cameroon*/
+#discover_iai{
+    clear: both;
+
+}
+
+.centers{
+    display: inline-block;
+    width: 100%;
+}
+
+#centers_sub_centers{
+    display: inline-block;
+    margin-left: 4%;
+}
+.sub_centers{
+    display: inline-block;
+    font-size: 200%;
+    width: 30%;
+    text-align: center;
+    color: green;
+}
+.global_images{
+    float: left;
+
+}
+.image_sizing{
+    float: left;
+    width: 49.6%;
+    margin: auto;
+    border: 1px solid black;
+}
+.text_on_centers{
+    position: relative;
+    left: 10%;
+    bottom: 20%;
+    font-size: 150%;
+}
+
+.img_container{
+    display: inline-block;
+    width: 100%;
+}
+.centers_images{
+    display: inline-block;
+    width: 100%;
+}
+
+/*Article styling*/
+article{
+    padding-left: 1%;
+}
+
+h3{
+    font-size:200%;
+    margin-left: 3%;
+}
+h4{
+    margin-left: 3%;
+    font-style: italic;
+    color: green;
+}
+/*update with various social media accounts*/
+.social_media{
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+.Admission{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    height: 600px;
+}
+/*under admissions images*/
+.admissions_paragraphe{
+    width: 90%;
+    padding: 2%;
+    text-align: justify;
+    font-size: 1.5em;
+}
+/*social media images sizing*/
+.social_media_image_sizer{
+    width:100%;
+    height: 400px;
+}
+
+
+#iai_matters{
+    display: inline-block;
+    width: 5%;
+    font-size: 200%;
+}
+#matters{
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 150%;
+}
+#more_info{
+    font-style: italic;
+    color: green;
+}
+
+/*---------------------------------------------------------------------------------*/
+.div_before_footer{
+    margin-top: 60%;
+    width: 100%;
+}
+.image_before_footer{
+    width: 100%;
+}
+
+/*---------------------------------------------------------------------------------*/
+#containing_div{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 249, 249);
+    margin-top: 1%;
+    margin-bottom: -5%;
+    vertical-align: auto;
+}
+#social_media_icon_div{
+    float: right;
+    width: 15%;
+}
+
+/*social media icons sizing*/
+.icon_sizing{
+    margin-left: 1%;
+    width: 20%;
+    height: 40px;
+}
+#facebook{
+    margin-left: 1%;
+    width: 20%;
+    height: 40px;
+}
+
+#twitter{
+    margin-left: 1%;
+    width: 20%;
+    height: 40px;
+}
+#instagram{margin-left: 1%;
+    width: 20%;
+    height: 40px;}
+#youtube{
+    margin-left: 1%;
+    width: 20%;
+    height: 40px;
+}
+
+/*---------------------------------------------------------------------------------*/
+footer{
+    background-color: rgb(76, 87, 76);
+    width: 100%;
+    height: 510px;
+    margin-top: 5.3%;
+}
+
+
+.content{
+    width: 100%;
+    height: 100px;
+    padding-top: 2%;
+
+}
+.logo_iai{
+    display: block;
+    width: 20%;
+    margin:0px auto;
+
+}
+/*flags of various partner nations*/
+#partner_nations_flags{
+    width: 100%;
+    margin-top: 19%;
+    margin-left: 1%;
+    height: 70px;
+}
+
+#partner_nation_flags:hover{
+    border: 1px solid green;
+}
+.flag_sizing{
+    display: inline;
+    width: 8.5%;
+    height: 70px;
+
+}
+.flag_sizing:hover{
+    border: 2px solid silver;
+}
+
+
+/*for the copyright spesifications under the flag*/
+#horizontal_align{
+    padding-right: 5%;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3%;
+}
+
+/*serving as seperator*/
+.vertical_line{
+    display: inline;
+    margin-left: 1%;
+    width: 1px;
+    height: 20px;
+    background-color: green;
+}
+/*aligning elements on footer*/
+.list_elements_footer{
+    color: gold;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 1%;
+}
+
+.list_elements_footer:hover{
+    color: red;
+}

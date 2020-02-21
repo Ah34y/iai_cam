@@ -1,0 +1,22 @@
+  body{
+      background-color: green;
+  }
+
+  body header{
+
+    background-color:blue;
+    height: 200px;
+
+  }
+ /*logo  image*/
+  body header img{
+      float: left;
+  }
+
+  body header h4{
+    float: right;
+}
+body header.menu ul{
+    float: left;
+}
+
