@@ -1,33 +1,41 @@
 /*change font size for body*/
 /*Styling of the navigation bar*/
+body{
+    width: 100%;
+}
 #language_selector{
-    margin-left: 7.8%;
+    margin-left: 5%;
     width: 5%;
     float: left;
     color: white;
 }
 #header_navigation{
     background-color: rgb(76, 87, 76);
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: right;
     position: fixed;
     top:0px;
+
+    z-index: 1000;
 }
 #header_ul{
+    width: 65%;
     list-style-type: none;
-    padding-right: 5%;
 }
 .header_li{
     display: inline-block;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .nav_head{
     text-decoration-line: none;
     color:gold  ;  
 }
 .nav_head:hover{
-    color: red;
+    color: tomato;
 }
 
 /*header styling with menu to be added on the right side with js*/
@@ -36,64 +44,78 @@
 }
 
 #menu_bar{
-    width: 60%;
+    width: 56%;
+    margin: 0.7% 0 0.7% 0;
 }
 
 #logo_iai{
     width: 25%;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 
 /*------------------------------------------------------------------------------*/
+/*aside before section*/
+.aside{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
 /*slider applied to div under header*/
 #under_header{
     display: inline;
 }
-#slider_div{
+.slider{
     background-color: green;
     float: left;
     width: 70%;
     height: 700px;
+    border: 1px solid red;
 }
+
+/*right side description in aside*/
 #side_header_image_container{
     background-color: silver;
-    display: inline-block;
     float: right;
     width: 30%;
     height: 700px;
 }
 #did_u_know_header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     width: 100%;
     margin-top: 0%;
-    font-size: 150%;
+    font-size: 2em;
     color: green;
 }
-.side_header_image_container{
-    margin: auto;
-    width: 90%; 
-    margin-bottom: 2%;
-    padding: auto;
+.side_header_image_container{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 95%; 
+    height: 20vh;
+    margin: 2.6%;
+    padding-left: auto;
 }
 .text{
-    display: inline-block;
     background-color: white;
-    width: 43%;
-    height: 80px;
-    padding:5%;
-    margin-top: 0px;
+    color: #444;
+    width: 50%;
+    height: 90px;
+    padding: 5%;
     text-align: justify;
 
 }
 .image_at_aside{
-    float: right;
-    width: 47%;
-    height: 80px;
-    margin: 0px;
+    width: 50%;
+    height: 90px;
 }
-.image_to_text{ 
+.image_at_aside img{
     width: 100%;
-    height: 115px;
+    height: 90px;
 }
 
 #more_of_info{
@@ -101,6 +123,8 @@
     margin: 5%;
     width: 90%;
 }
+
+
 .breaking_news_header{
     display: inline;
     text-align: center;
@@ -120,73 +144,115 @@
 }
 
 /*------------------------------------------------*/
-/*under slider div*/
-/*left portion*/
+/*under aside div*/
+section{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*left portion for events*/
 #left_div_in_section{
     float: left;
     width: 37%;
-    padding-top: 1%;
 }
 
 #Events{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5% 0 5% 10%;
     font-size: 200%;
+    color: green
 }
 em{
     color:red;
 }
 
+.event_feet{
+    margin: 4% 0;
+}
+.events_paragraphe{
+    padding: 4%;
+    color: gray;
+}
+
+.event_divider{
+    width: 95%;
+}
+
+/*-----------------------------------------------------------*/
+#life_on_campus{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:green;
+    margin: 13% 3%;
+    font-size: 200%;
+} 
 #life_on_campus_images{
     display: inline-block;
+    width: 100%;
+   
 }
 /*for the paragrephe*/
 .l_o_c_img{
-    width: 50%;
     display: inline;
 }
 /*for the image it self*/
-.l_o_c_images{
-    width: 49%;
-    height: 150px;
+.l_o_c_img img{
+    width: 49.5%;
+    height: 200px;
 }
 
-/*news side*/
+/**********************************************************/
 /*right portion*/
 
 #right_div_in_section{
     float: right;
-    width: 60%;
+    width: 62%;
 }
 
 #first_div_in_section{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
     width: 100%;
+    height: 60vh;
     margin-top: 5%;
 }
 
-#esse_img{
-    display: inline;
-    width: 45%;
+#fexac_image{
+    margin-top: 2%;
+    width: 48%;
+    height: 55vh;
 }
-#esse{
-    width: 45%;
-    height: 300px;
+#fexac_image img{
+    width: 100%;
+    height: 55vh;
 }
 
 #right_sided_text{
-    float: right;
     margin:0px;
-    margin-top: 0px;
     width: 52%;
-    height: 300px;
+    height: 60vh;
     padding: 10px;
     text-align: justify;
 }
 
 #header_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
     font-size: 200%;
     margin-top: 0px;
 }
+#first_div_text{
+    font-style: italic;
+    color: gray;
+}
 #News{
+    margin: 10% 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
     font-size: 200%;
 }
 /*sizing each division of the news box */
@@ -197,42 +263,49 @@ em{
 /*sizing each box containing the images*/
 /*for the 2 first images*/
 .news_image_div_first{
-    float: left;
-    margin-right: 2%;
-    width: 48%;
-    height: 420px;
-    border-bottom: 1px solid green;
-    margin-bottom: 1%;
-}
-/*for the last two images*/
-.news_image_div{
-    float: left;
-    margin-right: 2%;
-    width: 48%;
-    height: 420px;
-    border-bottom: 1px solid green;
-    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 99%;
+    color: green;
+    z-index: 1;
 }
 
-/*sizing all images*/
-.para_img{
-    margin-top: 0px;
-    width: 100%;
-    height: 300px;
+.news_card_header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
 }
-.news_images{
-    width: 100%;
-    height: 300px;
+#card_text_0{
+    font-style: italic;
+    color: grey;
 }
-.news_description{
-    font-size: 150%;
-    font-weight: bold;
+#card_text_1{
+    font-style: italic;
+    color: grey;
 }
-
+#card_text_2{
+    font-style: italic;
+    color: grey;
+}
+#card_text_3{
+    font-style: italic;
+    color: grey;
+}
+#card_text_4{
+    font-style: italic;
+    color: grey;
+}
+#card_text_5{
+    font-style: italic;
+    color: grey;
+}
 /*------------------------------------------------------------------------------------------------*/
 /*discover what we do at iai cameroon*/
 #discover_iai{
-    clear: both;
+
+    margin-top: 10%;
 
 }
 
@@ -283,12 +356,16 @@ article{
     padding-left: 1%;
 }
 
-h3{
+#student_staff{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
     font-size:200%;
-    margin-left: 3%;
+    margin: 1% 3%;
 }
-h4{
-    margin-left: 3%;
+
+#student_staff_description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5% 3%;
     font-style: italic;
     color: green;
 }
@@ -298,14 +375,22 @@ h4{
     width: 100%;
     height: 600px;
 }
+.Addmission_advice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .Admission{
     float: left;
-    width: 30%;
-    margin-left: 3%;
+    width: 32%;
+    margin-left: 1%;
     height: 600px;
+    
 }
 /*under admissions images*/
 .admissions_paragraphe{
+    color:grey;
     width: 90%;
     padding: 2%;
     text-align: justify;
@@ -313,6 +398,7 @@ h4{
 }
 /*social media images sizing*/
 .social_media_image_sizer{
+    object-fit: cover;
     width:100%;
     height: 400px;
 }
